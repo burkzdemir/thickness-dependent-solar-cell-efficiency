@@ -3,7 +3,7 @@ import numpy as np
 # ==============================
 # Load dielectric function
 # ==============================
-a = np.loadtxt("a")
+a = np.loadtxt("a") #file a should contain the energies in eV as the first column and the imaginary part of the dielectric function as the second column and the third column should be real part of the dielectric function
 
 # material thickness (initial, overwritten in loop)
 d = (1000000) * 10**(-10)
