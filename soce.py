@@ -5,8 +5,9 @@ import numpy as np
 # ==============================
 a = np.loadtxt("a") #file a should contain the energies in eV as the first column and the imaginary part of the dielectric function as the second column and the third column should be real part of the dielectric function
 
-# material thickness (initial, overwritten in loop)
-d = (1000000) * 10**(-10)
+# material thickness range                         
+dmin=10 #starting thickness in angstrom
+dmax=1000000 #final thickness in angstrom
 
 # ==============================
 # Short-circuit current parameters
