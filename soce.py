@@ -5,16 +5,18 @@ import numpy as np
 # ==============================
 a = np.loadtxt("a") #file a should contain the energies in eV as the first column and the imaginary part of the dielectric function as the second column and the third column should be real part of the dielectric function
 
-# material thickness range                         
-dmin=10 #starting thickness in angstrom
-dmax=1000000 #final thickness in angstrom
-
 # ==============================
-# Short-circuit current parameters
+# Input paramters            
 # ==============================
+dmin=10 #starting material thickness in angstrom
+dmax=1000000 #final material thickness in angstrom
 eg = 1.46 #bang gap of the cell
 ni = 0.85773 #non-ideality factor
 Tcell = 300 #cell temperature
+
+# ==============================
+# Constants
+# ==============================
 kb = 8.617333262e-5 #boltzman constant
 c = 299792458 #speed of light
 hp = 4.135667662e-15 #planck constant
