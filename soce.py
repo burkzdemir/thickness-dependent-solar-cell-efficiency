@@ -6,7 +6,7 @@ import numpy as np
 a = np.loadtxt("a") #file a should contain the energies in eV as the first column and the imaginary part of the dielectric function as the second column and the third column should be real part of the dielectric function
 
 # ==============================
-# Input paramters            
+# Input parameters            
 # ==============================
 dmin=10 #starting material thickness in angstrom
 dmax=1000000 #final material thickness in angstrom
