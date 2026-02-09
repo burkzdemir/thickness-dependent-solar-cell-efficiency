@@ -12,7 +12,7 @@ dmin=10 #starting material thickness in angstrom
 dmax=1000000 #final material thickness in angstrom
 eg = 1.46 #bang gap of the cell
 ni = 0.85773 #non-ideality factor
-Tcell = 300 #cell temperature
+Tcell = 300 #cell temperature in Kelvin
 
 # ==============================
 # Constants
